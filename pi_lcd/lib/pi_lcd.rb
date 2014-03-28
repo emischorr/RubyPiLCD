@@ -4,13 +4,13 @@ require 'pi_piper'
 module PiLcd
 
   class Lcd
-    PIN_RS = 7 # RegisterSelect true => char / flase => cmd
-    PIN_EN = 8 # Enable
+    PIN_RS = 23 # RegisterSelect true => char / flase => cmd
+    PIN_EN = 24 # Enable
 
-    PIN_D4 = 25
-    PIN_D5 = 24
-    PIN_D6 = 10
-    PIN_D7 = 9
+    PIN_D4 = 7
+    PIN_D5 = 8
+    PIN_D6 = 9
+    PIN_D7 = 10
 
     MILLISECOND = 0.001
     CHAR_REGISTER = 1
