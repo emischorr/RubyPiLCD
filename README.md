@@ -1,2 +1,2 @@
 # RubyPiLCD
-A Ruby Gem to control a LCD on the Raspberry Pi
+A Ruby Gem to control a LCD with HD44780 controller on the Raspberry Pi
